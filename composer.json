@@ -1,11 +1,12 @@
 {
-    "name": "leanphp/symfony-skeleton",
+    "name": "leanphp/symfony-api-skeleton",
     "type": "project",
     "license": "MIT",
-    "description": "A minimal symfony project skeleton for web applications",
+    "description": "A minimal symfony project skeleton for API applications",
     "require": {
         "php": "^7.1.3",
         "ext-iconv": "*",
+        "api-platform/api-pack": "^1.1",
         "doctrine/mongodb-odm-bundle": "^3.4",
         "incenteev/composer-parameter-handler": "^2.1",
         "jms/serializer-bundle": "^2.3",
@@ -68,7 +69,7 @@
     },
     "extra": {
         "symfony": {
-            "id": "01CAY100J26Y0G1AJXB0AP9PQS",
+            "id": "",
             "allow-contrib": false
         }
     }

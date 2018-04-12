@@ -1,12 +1,13 @@
-symfony-skeleton
-================
+symfony-api-skeleton
+====================
 
-[symfony-skeleton][0] is a minimal symfony project skeleton for web
+[symfony-api-skeleton][0] is a minimal symfony project skeleton for API
 applications. It provides minimal set of symfony bundles for development. It is
 based on [symfony/skeleton][1].
 
 ## Bundles
 
+- `api-platform/api-pack`
 - `doctrine/mongodb-odm-bundle`
 - `incenteev/composer-parameter-handler`
 - `jms/serializer-bundle`
@@ -26,7 +27,7 @@ A list of development bundles (`require-dev`):
 ## Install
 
 ```bash
-composer create-project leanphp/symfony-skeleton my-project-name
+composer create-project leanphp/symfony-api-skeleton my-project-name
 ```
 
 ## Authors
@@ -37,5 +38,5 @@ Copyright (c) 2018 ek9 <dev@ek9.co> (https://ek9.co).
 
 Licensed under [MIT License](./LICENSE)
 
-[0]: https://github.com/leanphp/symfony-skeleton
+[0]: https://github.com/leanphp/symfony-api-skeleton
 [1]: https://github.com/symfony/skeleton
